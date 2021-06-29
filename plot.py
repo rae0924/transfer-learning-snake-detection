@@ -10,6 +10,7 @@ train_losses = history[0]
 train_accuracies = [d*100 for d in history[1]]
 val_losses = history[2]
 val_accuracies = [d*100 for d in history[3]]
+print(train_accuracies[-1], val_accuracies[-1] )
 epochs = range(len(history[0]))
 
 fig1, ax1 = plt.subplots()

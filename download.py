@@ -1,7 +1,7 @@
 from bing_image_collector.collector import BingImageCollector
 
 
-api_key = 'ad91c53c6ed84d549d0e2a24d1d39e50'
+api_key = ''
 
 # some classes of snake in the imagenet competition
 snake_terms = [

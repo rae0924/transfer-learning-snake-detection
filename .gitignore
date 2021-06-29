@@ -1,0 +1,5 @@
+data/
+save/*.jpg
+save/*.pt
+__pycache__/
+*.pyc

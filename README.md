@@ -2,10 +2,10 @@
 
 <br>
 <div class="cam1" align="center">
-    <img src="save/cam_1.png" width="450" height="225"/>
-    <img src="save/cam_8.png" width="450" height="225"/>
-    <img src="save/cam_2.png" width="450" height="225"/>
-    <img src="save/cam_9.png" width="450" height="225"/>
+    <img src="save/cam_1.png" width="400" height="200"/>
+    <img src="save/cam_8.png" width="400" height="200"/>
+    <img src="save/cam_2.png" width="400" height="200"/>
+    <img src="save/cam_9.png" width="400" height="200"/>
 </div>
 <br>
 

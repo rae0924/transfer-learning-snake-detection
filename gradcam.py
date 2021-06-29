@@ -15,7 +15,7 @@ state_dict = torch.load(model_path)
 detector.load_state_dict(state_dict)
 
 # preprocess
-image_path = os.path.join(proj_dir, 'save/example_9.jpg')
+image_path = os.path.join(proj_dir, 'save/example_1.jpg')
 image = (cv2.imread(image_path)[:,:,::-1])
 image = cv2.resize(image, (224,224))
 x = torch.tensor(image, dtype=torch.float)
@@ -60,8 +60,8 @@ else:
     prediction = 'not snake'
 
 # plot image vs. CAM
-f, (ax1, ax2) = plt.subplots(1, 2)
-f.suptitle(f'prediction: {prediction}', y=0.82)
+f, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.4,3.2))
+f.suptitle(f'prediction: {prediction}', y=0.95)
 ax1.imshow(image)
 ax2.imshow(map)
-f.savefig(os.path.join(proj_dir, 'save/cam_9.png'))
+f.savefig(os.path.join(proj_dir, 'save/cam_1.png'))
